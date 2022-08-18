@@ -13,7 +13,7 @@ import java.util.List;
 
 public class App {
     public static void main( String[] args ) {
-        // подключение файла конфигурации hibernate.properties и класса Person
+        // подключение файла конфигурации hibernate.properties и классов Person и Item
         Configuration configuration = new Configuration()
                 .addAnnotatedClass(Person.class)
                 .addAnnotatedClass(Item.class);
